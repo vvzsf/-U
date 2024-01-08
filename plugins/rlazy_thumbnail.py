@@ -62,7 +62,7 @@ async def removethumb(client, message):
       if fsub == 400:
         return
     await db.set_thumbnail(message.from_user.id, file_id=None)
-    await message.reply_text("**Okay sweetie, I deleted your custom thumbnail for direct renaming. Now I will apply default thumbnail. ✅️**✅️")
+    await message.reply_text("**Okay, I deleted your custom thumbnail for direct renaming. Now I will apply default thumbnail. ✅️**✅️")
 
 @Client.on_message(filters.private & filters.command(['set_thumbnail','set_thumb','st']))
 async def addthumbs(client, message):
@@ -121,7 +121,7 @@ async def removethumbnail(client, message):
 
     await db.set_lazy_thumbnail(message.from_user.id, thumbnail=None)
     await message.reply_text(
-        "**🗑️ Okay baby, I deleted your custom thumbnail for url downloading. Now I will apply default thumbnail. ☑**",
+        "**🗑️ Okay , I deleted your custom thumbnail for url downloading. Now I will apply default thumbnail. ☑**",
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("⚙ ᴄᴏɴғɪɢᴜʀᴇ sᴇᴛᴛɪɴɢs 🎨", callback_data="openSettings")]
         ])
