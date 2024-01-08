@@ -50,15 +50,15 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖', url='https://t.me/PanindiaFilmZ')
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
+            InlineKeyboardButton('🙆🏻  🦾', callback_data='help'),
+            InlineKeyboardButton('♥️  ♥️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔗 More Help', callback_data='leech_url_help'),
-            InlineKeyboardButton('⚙ Open Settings', callback_data='openSettings'),
+            InlineKeyboardButton('🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ', callback_data='leech_url_help'),
+            InlineKeyboardButton('⚙ ™ ᴘɪꜰ', callback_data='openSettings'),
             ],[
-            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com/@Lazydeveloperr')
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url='https://youtube.com/@Lazydeveloperr')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -72,7 +72,7 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("Hey Sona, Ek dfa check kr lo ki main Channel mei Add hu ya nhi...!")
+            logger.error("Hey Wait Main Channel Checking...!")
             return
         btn = [
             [
@@ -82,7 +82,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 Join Rare Channel 🦋", url='t.me/PIFOTT'
                 )
             ]
         ]
