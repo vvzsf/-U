@@ -1,11 +1,11 @@
     # Credit @LazyDeveloper.
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # Born to make history @Arisu_0007 !
 
     # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    # 🥰  Thank you for giving me credit @Arisu_0007  🥰
     # thanks Adarsh Goel for Server Routing
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> telegram@PanIndia_Flimz_Admin_bot or Rare @PIFOTT 
 
 class InvalidHash(Exception):
     message = "Invalid hash"
