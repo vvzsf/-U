@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖', url='https://t.me/PanindiaFilmZ')
             ],[
-            InlineKeyboardButton('🙆🏻  🦾', callback_data='help'),
+            InlineKeyboardButton('🛒 ᴅᴇᴀʟꜱ 🦾', callback_data='help'),
             InlineKeyboardButton('♥️  ♥️', callback_data='about')
             ],[
             InlineKeyboardButton('🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ', callback_data='leech_url_help'),
