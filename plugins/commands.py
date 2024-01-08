@@ -23,12 +23,12 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/PanindiaFilmZ')
+                InlineKeyboardButton('🔔 ᴀʙᴏᴜᴛ 🤖', url='https://t.me/PanindiaFilmZ')
             ],
             [
-                InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🙆🏻 ʜᴇʟᴘ 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
-            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com/@Lazydeveloperr')
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -77,12 +77,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link
                 )
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 Join Rare Channel 🦋", url='t.me/PIFOTT'
+                    "🦋 ᴊᴏɪɴ ʀᴀʀᴇ ᴄʜᴀɴɴᴇʟ 🦋", url='t.me/PIFOTT'
                 )
             ]
         ]
@@ -103,16 +103,16 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton('🧞‍♀️ ꜱᴇᴀʀᴄʜ 🧐', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖', url=f"https://t.me/PanindiaFilmZ")
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
+            InlineKeyboardButton('🙆🏻 ʜᴇʟᴘ 🦾', callback_data='help'),
+            InlineKeyboardButton('♥️ ᴀʙᴏᴜᴛ ♥️', callback_data='about')
         ],[
-            InlineKeyboardButton('🔗 More Help ', callback_data='leech_url_help'),
-            InlineKeyboardButton('⚙ Open Settings ', callback_data='openSettings'),
+            InlineKeyboardButton('🔗 ᴍᴏʀᴇ ʜᴇʟᴘ ', callback_data='leech_url_help'),
+            InlineKeyboardButton('⚙ ᴏᴘᴇɴ ꜱᴇᴛᴛɪɴɢꜱ ', callback_data='openSettings'),
             ],
         [
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
