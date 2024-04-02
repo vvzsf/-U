@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('🧞‍♀️ ꜱᴇᴀʀᴄʜ 🧐', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖', url=f"https://t.me/PanindiaFilmZ")
             ],[
-            InlineKeyboardButton('🛒 ᴅᴇᴀʟꜱ 🦾', url=f"https://t.me/PIFDeals"),
+            InlineKeyboardButton('🛒 ᴅᴇᴀʟꜱ 🦾', url=f"https://t.me/VCdeals24"),
             InlineKeyboardButton('🥵 ʀᴀʀᴇ ʜɪᴅᴅᴇɴ ᴍᴏᴠɪᴇꜱ ♥️', url=f"https://t.me/PIFRareHiddenMovies")
             ],[
             InlineKeyboardButton('🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ', url=f"https://t.me/BoTzUpdates0"),
