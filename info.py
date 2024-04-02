@@ -122,7 +122,7 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-OWNER_USERNAME = "@PanIndia_Flimz_Admin_bot"
+OWNER_USERNAME = "@Arisu_0007"
 
 
 # URL UPLOADING
