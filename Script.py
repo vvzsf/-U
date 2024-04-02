@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = '''**ʜᴇ'ʟʟᴏ {},** **ᴍʏ ᴍʏsᴇʟғ** <a href=https://t.me/{}>{}</a>,**ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs**\n\n**ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴏɴʟʏ ᴛʜɪs ɢʀᴏᴜᴘ :- https://t.me/+Dt6DotXT4Uw2OTk1**\n\n**ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ **🪄'''
+    START_TXT = '''**ʜᴇ'ʟʟᴏ** **{}** **× ᴍʏ ᴍʏsᴇʟғ** <a href=https://t.me/{}>{}</a>,**ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs**\n\n**ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴏɴʟʏ ᴛʜɪs ɢʀᴏᴜᴘ :- https://t.me/+Dt6DotXT4Uw2OTk1**\n\n**ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ **🪄'''
     LZTHMB_TEXT = """Hello {},
 Glad to see you here. It seems that you really love <a href=https://t.me/PIFOTT >RareMovies's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/PanindiaFilmZ>Main Channel</a> and stay tuned for next <a href=https://t.me/PIFDeals>Deals</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/PanIndia_Flimz_Admin_bot>Developer</a>
     """
